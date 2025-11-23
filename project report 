@@ -1,1 +1,25 @@
-t
+
+
+PROJECT REPORT 
+Healthcare Assistant Chatbot with WhatsApp Reminder System
+
+This project is a small healthcare assistant tool that helps users ask basic health-related questions and also set reminders for taking medicines. The idea behind the project is to make a simple digital helper that anyone can use without needing technical knowledge.
+
+The chatbot is built using Python, Streamlit, Google Gemini AI, and pywhatkit. When a user types a question, the chatbot looks for common health keywords and gives a simple, safe response. If the question is general, it uses Gemini AI to generate a more detailed answer. The goal is not to provide medical treatment, but to offer basic guidance and encourage users to consult a real doctor when needed.
+
+A major feature of the system is the WhatsApp medicine reminder. Users can enter their mobile number, choose a time, and optionally write a note. At that exact time, the system automatically opens WhatsApp Web and sends a reminder message. This is useful for patients, elderly people, or anyone who forgets their medicines.
+
+The whole application is displayed on a clean Streamlit interface. It has two main sections:
+
+1. A chat area where users type questions.
+
+
+2. A reminer section where they set a medicine alert.
+
+
+
+The project shows how AI and automation can work together in a simple and practical way. While it cannot replace real medical advice, it helps users stay organized and informed. In the future, the system can be expanded with features like saving reminders, connecting to doctor appointment systems, voice input, or converting it into a mobile app.
+
+Overall, this project demonstrates a beginner-friendly but meaningful use of Python, AI, and automation in the healthcare space.
+
+
